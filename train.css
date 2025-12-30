@@ -1,0 +1,254 @@
+#mainmenu{
+	width:100%;
+	height:80px;
+	font-family:Bahnschrift;
+}
+nav{
+	background-color:black;
+	position: fixed;
+	z-index: 1000;
+    width :100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+	padding-left:20px;
+}
+h1, h2, h3, h4, h5, h6, p{
+	font-family:Bahnschrift; 
+}
+.navigation-bar-links{
+    width: 90%; 
+}
+.topmenul{
+    font-family: Bahnschrift;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.topmenul:hover{
+	color:red;
+}
+.topmenul .topmenuli{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:45px;
+	
+}
+* {box-sizing:border-box}
+body{
+	background-image:url("IMG_6321.jpg");
+	background-size:100%;	
+	background-repeat:no-repeat;
+	margin:0;
+}
+#Disciplines{
+	width:90px;
+	text-align:center;
+	border-radius: 5px;
+	text-decoration: none;
+	color:white;
+}
+#About{
+	width:80px;
+	text-align:center;
+	border-radius: 5px;
+	text-decoration: none;
+	color:white;
+}
+#Kids{
+	width:40px;
+	text-align:center;
+	border-radius: 5px;
+	text-decoration: none;
+	color:white;
+}
+#Contact{
+	width:60px;
+	text-align:center;
+	border-radius: 5px;
+	text-decoration: none;
+	color:white;
+}
+#Special_Programs{
+	width:136px;
+	text-align:center;
+	border-radius: 5px;
+	text-decoration: none;
+	color:white;
+}
+#Schedule{
+	width:76px;
+	text-align:center;
+	border-radius: 5px;
+	text-decoration: none;
+	color:white;
+}
+#News{
+	width:40px;
+	text-align:center;
+	border-radius: 5px;
+	text-decoration: none;
+	color:white;
+}
+#contact-form {
+	font-family:Bahnschrift; 
+	margin-left:180px;
+	margin-top:50px;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+}
+li{
+	font-family:Bahnschrift; 
+}
+body {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+	margin-top:0px;
+    text-align: center;
+    padding-top:20xpx;
+	padding-bottom:15px;
+    background-color: #990000;
+    color: #fff;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.8rem;
+    color: #990000;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 30px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 320px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card .details {
+    display: none;
+    text-align: left;
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+.card .details.show {
+    display: block;
+}
+
+.details-list {
+    margin-top: 15px;
+}
+
+.details-list h4 {
+    margin: 0;
+    font-size: 1rem;
+    color: #990000;
+}
+
+.details-list ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ff0000;
+    margin: 20px 0;
+}
+
+button {
+    background-color: #990000;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #660000;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .card {
+        width: 90%;
+    }
+}
+
+.lastfooter{
+	margin-top:180px;
+	width:100%;
+	height:90px;
+	padding-top:30px;
+	display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+	background:url(https://teamnogueiradubai.com/wp-content/themes/gymat/assets/img/footer-1-bg.png);
+	font-family: Bahnschrift;
+}
+.lastfootertitle{
+	text-align: right;
+	text-decoration: none;
+	color:white;
+}

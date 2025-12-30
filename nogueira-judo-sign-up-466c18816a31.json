@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "nogueira-judo-sign-up",
+  "private_key_id": "c4a000215d870efb35abf3adfea5105d4c927cf4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCypn8g0LBwgD+/\ng+pofGf9CGatsjH5WqlqgKeGMaa0ZXF8yK15MuA7483lmjbhSCFS4yA+yU1oCJ2r\n+ghCZxvtxS3UMU1AGoBCJ8DhOgVSmSCLlO4u4Ym9gMH3ek/n3mO4Vn5rkNLgfRuk\naO1jVvfqgXit+8tKAA2SB2iMyUmCdogsyU+BRU5HJNyooXbyiVcUdzBKBPaMZG9S\n98b0pp6qMm0hvqnI+CGIx/3SuiNo/E4esySUPbaaFXxL+RYp+QUjFsEKnqdTalqy\nsLUuzONBPtI+E8yjDp2Ti1yQMt9uh7t6S6t7v9Qixvl1ncLMG1ivorjnJbnXmyeA\noEw8lYL5AgMBAAECggEAAKtFgyU0wV4nhX/RTZbu7Wge1I4fzHmB2jnE1lKD1oWP\nw/Bkqv40PqR79djRaKKBxnkkKCCjrjoXBcKNbALXYN6r4KyCw6sXHWY+lWncHWpE\nNPIgv9r4WVoSUL8rjuuWGrRgC8WCM6EVLGWOQ0c4/etvAHI09mX4uk6uMWm6A8/4\nGUzSn4ckcL/AVLGH9NPx8WT4ZRSvsrZSJC4+RtAFKuJ/+jYlrvX0N1XgGQCkuvTZ\nyo07KPINRSVLp43hXB2jHEc1GHPnKnVceO4PLKhFpecb+vg4zQvL68vbqdV+thjc\nWk0e1xypSjSM0h2tkG2nxBK1M5+zKGH4xLaRVCiMJQKBgQD3y0uVOt6ujYiEgU2Z\n3g5k2TvQsOZcAbDeesXSeayVw2KAJW/9qVVGwUQ7g0n/GGFs3LTdITKpFjN3cD8h\nVAjy1c879kV+PiK93hhpbq463fR0VEgiHYRhP+hVghX7jepSZL0etFmd9y5LMDGZ\n9RFLOODWlr4E+TAir7ntGMbepwKBgQC4kQbgKo+pbYZbTRm9E7sMPtr7B3FkwvCh\nplf4eJS7dHSVG7GU6A8SDTcHXqt+eDUc/PtWqhf2KOetogkPqB0AXdD7ro40hC5c\nDBulqPyohQAPlvghEsBaNDdev0qb3xZXPToX5Haa29+X5Xp9kLB11F0SDNfViGSA\neSrPuqdlXwKBgQCM5AN6uzlICGNZ6+dCmHaYsseG1j50i+WT6jy2esY9dRV5hU/S\n68f37gWszO5y49rpOeiAXtLePyhOPf03Jv/biuRE1LcYm53HVROORwc7o13OEunc\ns+nEHcEtdUSofj2AUZUSczsNTTD+QU3CmwwVOCbm/FjYnRLYdhACFndkuwKBgAU+\naZmY2/gOWpDhgeezVc8lQgd70KbyOu/8z+cJVgB1cJKD9OmsJjF3Gqck825mb+vg\n7CssLf4ab2qpfeRp/Fj0UWm1LekkEEUhOu/b+0G2daf7vBUEeV6WuTQB71a6YeIc\npTfkj9IaiSHBrVc/8yOF4xcOMluowmI8DxFT1km1AoGBALgL6AaqVddDlqROxPgQ\nQB1ZpnXSKpdRdA9v+rjfrBfh9sRSYppm7WJUsT/mhR2SC9zwE6aXELUm8H6drlyz\nKxb+gAxZnLgDhHYl2SqOo2qkhw7vycHWz2W15sfk3BXcJGi6RHZ/x4Kms50Y7CyL\nzrfJajz3yk1OtgZ8vlCjcPDQ\n-----END PRIVATE KEY-----\n",
+  "client_email": "nogueira-judo-signing-up@nogueira-judo-sign-up.iam.gserviceaccount.com",
+  "client_id": "100399618119336299979",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/nogueira-judo-signing-up%40nogueira-judo-sign-up.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

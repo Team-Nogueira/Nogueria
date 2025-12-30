@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judo Sign Up Team Nogueira Dubai</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* All your original CSS styles remain here... */
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Bahnschrift, sans-serif;
+            background-image: url("https://images.unsplash.com/photo-1549474753-43a7593c6f09?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+        }
+
+        #mainmenu{
+			width:100%;
+			height:80px;
+			font-family:Bahnschrift;
+		}
+		nav{
+			background-color:black;
+			position: fixed;
+			z-index: 1000;
+			width :100%;
+			height:65px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.logo {
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+			padding-left:20px;
+		}
+		h1, h2, h3, h4, h5, h6, p{
+			font-family:Bahnschrift;
+		}
+		.navigation-bar-links{
+			width: 90%;
+		}
+		.topmenul{
+			font-family: Bahnschrift;
+			display: flex;
+			justify-content: space-evenly;
+			align-items: center;
+		}
+
+		.topmenul:hover{
+			color:red;
+		}
+		.topmenul .topmenuli{
+			list-style-type: none;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height:45px;
+		}
+
+        #Disciplines{
+			width:90px;
+			text-align:center;
+			border-radius: 5px;
+			text-decoration: none;
+			color:white;
+		}
+		#About{
+			width:80px;
+			text-align:center;
+			border-radius: 5px;
+			text-decoration: none;
+			color:white;
+		}
+		#Kids{
+			width:40px;
+			text-align:center;
+			border-radius: 5px;
+			text-decoration: none;
+			color:white;
+		}
+		#Contact{
+			width:60px;
+			text-align:center;
+			border-radius: 5px;
+			text-decoration: none;
+			color:white;
+		}
+		#Special_Programs{
+			width:136px;
+			text-align:center;
+			border-radius: 5px;
+			text-decoration: none;
+			color:white;
+		}
+		#Schedule{
+			width:76px;
+			text-align:center;
+			border-radius: 5px;
+			text-decoration: none;
+			color:white;
+		}
+		#News{
+			width:40px;
+			text-align:center;
+			border-radius: 5px;
+			text-decoration: none;
+			color:white;
+		}
+        #contact-form {
+            margin-top: 40px;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #names-container {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        .input-group label {
+            font-weight: bold;
+            margin-bottom: 8px;
+            color: #555;
+            font-size: 14px;
+        }
+
+        .input-group input[type="text"],
+        .input-group input[type="email"],
+        .input-group input[type="tel"] {
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 16px;
+            transition: border-color 0.3s ease;
+        }
+
+        .input-group input[type="text"]:focus,
+        .input-group input[type="email"]:focus,
+        .input-group input[type="tel"]:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+        .submit-buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #submitAll {
+            padding: 12px 24px;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            background-color: #02b826;
+        }
+
+        #submitAll:hover {
+            background-color: green;
+        }
+        
+        #submitAll:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+        #gender {
+            width: 100%;
+            margin-top: 25px;
+            padding: 20px;
+            height: auto;
+            text-align: center;
+        }
+
+        #ages {
+            width: 100%;
+            margin-top: 25px;
+            padding: 20px;
+            height: auto;
+            max-width: 400px;
+        }
+
+        .main-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .InputW, .InputH {
+            width: 100%;
+            margin-top: 25px;
+            padding: 20px;
+            height: auto;
+            max-width: 400px;
+        }
+
+        .text-input, label {
+            display: block;
+            margin-bottom: 20px;
+            color: black;
+        }
+
+        .text-input, #age {
+            outline: none;
+            border: none;
+            border-bottom: 2px solid red;
+            width: 80px;
+            font-family: Bahnschrift;
+            text-align: center;
+        }
+
+        .gender-option {
+            display: inline-block;
+            margin: 0 20px;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 10px;
+            transition: box-shadow 0.5s ease-in-out, transform 0.5s ease-in-out;
+            padding: 10px;
+        }
+
+        .gender-option:hover {
+            transform: scale(1.05);
+            box-shadow: 19px 20px 16px gray;
+        }
+
+        .gender-option.selected {
+            border: 4px solid black;
+            box-shadow: 9px 10px 5px red;
+        }
+
+        .lastfooter {
+            margin-top: 180px;
+            width: 100%;
+            height: 90px;
+            padding-top: 30px;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            background: url(https://teamnogueiradubai.com/wp-content/themes/gymat/assets/img/footer-1-bg.png);
+            font-family: Bahnschrift;
+        }
+
+        .lastfootertitle {
+            text-align: right;
+            text-decoration: none;
+            color: white;
+        }
+
+        .modal {
+            position: fixed;
+            z-index: 1001;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+            display: none;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-content {
+            background-color: #fefefe;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 80%;
+            max-width: 400px;
+        }
+
+        .modal-content button {
+            padding: 10px 20px;
+            margin-top: 10px;
+            border: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="mainmenu">
+        <nav>
+            <div class="logo">
+                <a class="dark-logo" href="https://teamnogueiradubai.com/"><img width="240" height="45" src="https://teamnogueiradubai.com/wp-content/uploads/2023/02/logo_dubai_light.svg" alt="Team Nogueira Dubai Logo"/></a>
+            </div>
+            <div class="navigation-bar-links">
+                <ul class="topmenul">
+                    <li class="topmenuli"><a href="https://teamnogueiradubai.com/about/" id="About" title="About">About us</a></li>
+                    <li class="topmenuli"><a href="https://teamnogueiradubai.com/judo/" id="Disciplines" title="Disciplines">Disciplines</a></li>
+                    <li class="topmenuli"><a href="https://teamnogueiradubai.com/kid/" id="Kids" title="Kids">Kids</a></li>
+                    <li class="topmenuli"><a href="https://teamnogueiradubai.com/seminars-camps/" id="Special_Programs" title="Special Programs">Special Programs</a></li>
+                    <li class="topmenuli"><a href="https://teamnogueiradubai.com/schedule-2025/" id="Schedule" title="Schedule">Schedule</a></li>
+                    <li class="topmenuli"><a href="https://teamnogueiradubai.com/news/" id="News" title="News">News</a></li>
+                    <li class="topmenuli"><a href="https://teamnogueiradubai.com/contact/" id="Contact" title="Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="flex justify-center items-start min-h-screen">
+        <form id="contact-form">
+            <h1 class="text-3xl font-bold mb-8 text-center text-gray-800">Judo Sign Up</h1>
+            <div id="names-container" class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                <div class="input-group">
+                    <label for="firstName" class="block text-sm font-medium text-gray-700">First Name</label>
+                    <input type="text" id="firstName" name="firstName" placeholder="Enter your first name" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                </div>
+                <div class="input-group">
+                    <label for="lastName" class="block text-sm font-medium text-gray-700">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" placeholder="Enter your last name" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+                </div>
+            </div>
+            <div class="input-group">
+                <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+            </div>
+            
+            <div class="input-group">
+                <label for="mobileNumber" class="block text-sm font-medium text-gray-700">Mobile Number</label>
+                <input type="tel" id="mobileNumber" name="mobileNumber" placeholder="Enter your mobile number" required class="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500">
+            </div>
+            <center>
+            <div id="gender" class="mb-8">
+                <h2 class="text-xl font-semibold mb-4 text-center">Select your gender</h2>
+                <div class="flex justify-center space-x-8">
+                    <div id="male-option" class="gender-option p-4 border-2 border-gray-300 flex flex-col items-center">
+                         <img src="male.png" alt="Male Icon" width="100" height="100" />
+                        <p class="mt-2 text-gray-600">Male</p>
+                    </div>
+                    <div id="female-option" class="gender-option p-4 border-2 border-gray-300 flex flex-col items-center">
+                        <img src="female-removebg-preview.png" alt="Female Icon" width="100" height="120" />
+                        <p class="mt-2 text-gray-600">Female</p>
+                    </div>
+                </div>
+            </div>
+            </center>
+            <center>
+                <div class="main-container grid grid-cols-1 md:grid-cols-3 gap-6 mb-6 text-center">
+                    <div id="ages" class="flex flex-col items-center">
+                        <label for="age">Age</label>
+                        <input type="number" class="text-input" id="age" name="age" min="4" max="60" required/>
+                    </div>
+                    <div class="InputH flex flex-col items-center">
+                        <label for="height">Height (cm)</label>
+                        <input type="number" class="text-input" id="height" name="height" min="94" max="220" required/>
+                    </div>
+                    <div class="InputW flex flex-col items-center">
+                        <label for="weight">Weight (kg)</label>
+                        <input type="number" class="text-input" id="weight" name="weight" min="18" max="120" required/>
+                    </div>
+                </div>
+            </center>
+            <input type="hidden" id="bmiValue" name="bmiValue">
+            <input type="hidden" id="bmiCategory" name="bmiCategory">
+            <div class="submit-buttons flex justify-center space-x-4 mt-8">
+                <button type="submit" id="submitAll" class="px-6 py-3 rounded-md font-semibold shadow-md">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="lastfooter">
+        <a class="dark-logo" href="https://teamnogueiradubai.com/"><img width="240" height="45" src="https://teamnogueiradubai.com/wp-content/uploads/2023/02/logo_dubai_light.svg" alt="Footer Logo"/></a>
+        <h3 class="lastfootertitle"> © 2025 All Rights Reserved by <a target="_blank" rel="nofollow" href="#" class="lastfootertitle">Team Nogueira Dubai</a> </h3>
+    </div>
+    <div id="message-modal" class="modal">
+        <div class="modal-content">
+            <p id="modal-message" class="mb-4"></p>
+            <button id="close-modal-btn" class="px-4 py-2 bg-blue-500 text-white rounded-md">OK</button>
+        </div>
+    </div>
+
+    <script>
+        let selectedGender = null;
+        const form = document.getElementById('contact-form');
+        
+        const ageInput = document.getElementById("age");
+        const heightInput = document.getElementById("height");
+        const weightInput = document.getElementById("weight");
+        const maleOption = document.getElementById("male-option");
+        const femaleOption = document.getElementById("female-option");
+        const bmiValueInput = document.getElementById("bmiValue");
+        const bmiCategoryInput = document.getElementById("bmiCategory");
+        const submitButton = document.getElementById('submitAll');
+        
+        const messageModal = document.getElementById('message-modal');
+        const modalMessage = document.getElementById('modal-message');
+        const closeModalBtn = document.getElementById('close-modal-btn');
+        
+        function showModal(message) {
+            modalMessage.innerText = message;
+            messageModal.style.display = 'flex';
+        }
+
+        function closeModal() {
+            messageModal.style.display = 'none';
+        }
+
+        function selectGender(gender) {
+            selectedGender = gender;
+            updateSelectionStyle(gender);
+        }
+
+        function updateSelectionStyle(gender) {
+            maleOption.classList.remove('selected');
+            femaleOption.classList.remove('selected');
+            
+            if (gender === 'Male') {
+                maleOption.classList.add('selected');
+            } else if (gender === 'Female') {
+                femaleOption.classList.add('selected');
+            }
+        }
+        
+        maleOption.addEventListener('click', () => selectGender('Male'));
+        femaleOption.addEventListener('click', () => selectGender('Female'));
+        closeModalBtn.addEventListener('click', closeModal);
+
+        function countBmi() {
+            const heightValue = Number(heightInput.value);
+            const weightValue = Number(weightInput.value);
+            if (heightValue > 0 && weightValue > 0) {
+                const bmi = weightValue / ((heightValue / 100) * (heightValue / 100));
+                let resultComment = '';
+                if (bmi < 18.5) {
+                    resultComment = 'Underweight';
+                } else if (bmi <= 24.9) {
+                    resultComment = 'Normal Weight';
+                } else if (bmi <= 29.9) {
+                    resultComment = 'Overweight';
+                } else if (bmi <= 34.9) {
+                    resultComment = 'Obese';
+                } else {
+                    resultComment = 'Extremely obese';
+                }
+                bmiValueInput.value = bmi.toFixed(2);
+                bmiCategoryInput.value = resultComment;
+                return true;
+            }
+            return false;
+        }
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            if (!countBmi()) {
+                showModal("Please enter valid height and weight values.");
+                return;
+            }
+            
+            if (!selectedGender) {
+                showModal("Please select your gender.");
+                return;
+            }
+			
+            submitButton.disabled = true;
+            submitButton.innerText = 'Submitting...';
+
+            try {
+                const formData = new FormData(form);
+                const formObject = Object.fromEntries(formData.entries());
+                formObject.gender = selectedGender;
+                const response = await fetch("submit.php", {
+                    method: 'POST',
+                    body: JSON.stringify(formObject),
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                    }
+                });
+
+                const result = await response.json();
+
+                if (response.ok) {
+                    showModal(result.message);
+                    form.reset();
+                    maleOption.classList.remove('selected');
+                    femaleOption.classList.remove('selected');
+                    selectedGender = null;
+
+                } else {
+                    showModal(`Submission failed: ${result.message}`);
+                    console.error('Submission failed:', response.status, result.message);
+                }
+            } catch (error) {
+                console.error('Submission error:', error);
+                showModal("There was an error submitting the form. Please try again.");
+            } finally {
+                submitButton.disabled = false;
+                submitButton.innerText = 'Submit';
+            }
+        });
+    </script>
+</body>
+</html>
