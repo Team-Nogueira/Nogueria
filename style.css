@@ -1,0 +1,91 @@
+/* Custom Font & Base */
+body { 
+    font-family: Bahnschrift, sans-serif; 
+}
+
+/* Navigation Styles */
+nav {
+    background-color: black;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    z-index: 1000;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.logo img { 
+    width: 240px; 
+    height: 45px; 
+}
+
+.menu { 
+    display: flex; 
+    gap: 50px; 
+    list-style: none; 
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu a:hover { 
+    color: red; 
+}
+
+/* Card Interaction & Selection */
+.card { 
+    transition: transform .3s, box-shadow .3s; 
+    cursor: pointer; 
+}
+
+.card:hover { 
+    transform: translateY(-10px); 
+    box-shadow: 0 12px 30px rgba(0,0,0,.2); 
+}
+
+.card.selected { 
+    border: 4px solid #ff0000; 
+}
+
+/* Details Animation */
+.det {
+    max-height: 0; 
+    overflow: hidden; 
+    opacity: 0;
+    transition: all .6s ease;
+}
+
+.det.show {
+    max-height: 1200px; 
+    opacity: 1;
+    margin-top: 24px; 
+    padding-top: 24px;
+    border-top: 1px solid #eee;
+}
+
+/* Pricing and Text */
+.price { 
+    font-size: 3rem; 
+    font-weight: 800; 
+    color: #ff0000; 
+}
+
+/* Footer Styling */
+.ft {
+    background-image: url('https://teamnogueiradubai.com/wp-content/themes/gymat/assets/img/footer-1-bg.png');
+    background-size: cover;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 160px;
+}
